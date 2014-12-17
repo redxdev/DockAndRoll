@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: 2658a5374f62f794d88cd325377c4048
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: carpals
+    100002: carpals 1
+    100004: coat
+    100006: collar
+    100008: cranium
+    100010: eyebrow_left
+    100012: eyebrow_right
+    100014: eyebrows
+    100016: femur
+    100018: femur 1
+    100020: fibula
+    100022: fibula 1
+    100024: hand_left
+    100026: hand_right
+    100028: hands
+    100030: hat
+    100032: index_finger
+    100034: index_finger 1
+    100036: jaw
+    100038: left_boot
+    100040: leg_left
+    100042: leg_right
+    100044: legs
+    100046: meta_index
+    100048: meta_index 1
+    100050: meta_middle
+    100052: meta_middle 1
+    100054: meta_pinkie
+    100056: meta_pinkie 1
+    100058: meta_ring
+    100060: meta_ring 1
+    100062: meta_thumb
+    100064: meta_thumb 1
+    100066: middle_finger
+    100068: middle_finger 1
+    100070: moustache
+    100072: moustache_left
+    100074: moustache_right
+    100076: pelvis
+    100078: phalanges_index
+    100080: phalanges_index 1
+    100082: phalanges_mid_index
+    100084: phalanges_mid_index 1
+    100086: phalanges_mid_middle
+    100088: phalanges_mid_middle 1
+    100090: phalanges_mid_pinkie
+    100092: phalanges_mid_pinkie 1
+    100094: phalanges_mid_ring
+    100096: phalanges_mid_ring 1
+    100098: phalanges_mid_thumb
+    100100: phalanges_mid_thumb 1
+    100102: phalanges_middle
+    100104: phalanges_middle 1
+    100106: phalanges_pinkie
+    100108: phalanges_pinkie 1
+    100110: phalanges_ring
+    100112: phalanges_ring 1
+    100114: phalanges_thumb
+    100116: phalanges_thumb 1
+    100118: phalanges_tip_index
+    100120: phalanges_tip_index 1
+    100122: phalanges_tip_middle
+    100124: phalanges_tip_middle 1
+    100126: phalanges_tip_pinkie
+    100128: phalanges_tip_pinkie 1
+    100130: phalanges_tip_ring
+    100132: phalanges_tip_ring 1
+    100134: phalanges_tip_thumb
+    100136: phalanges_tip_thumb 1
+    100138: pinkie_finger
+    100140: pinkie_finger 1
+    100142: polySurface10
+    100144: polySurface11
+    100146: polySurface12
+    100148: polySurface13
+    100150: polySurface14
+    100152: polySurface15
+    100154: polySurface16
+    100156: polySurface17
+    100158: polySurface18
+    100160: polySurface19
+    100162: polySurface20
+    100164: polySurface21
+    100166: polySurface22
+    100168: polySurface23
+    100170: polySurface24
+    100172: polySurface25
+    100174: polySurface26
+    100176: polySurface27
+    100178: polySurface28
+    100180: polySurface8
+    100182: polySurface9
+    100184: ribs
+    100186: right_boot
+    100188: ring_finger
+    100190: ring_finger 1
+    100192: //RootNode
+    100194: skull
+    100196: spine
+    100198: spine_bottom
+    100200: spine_top
+    100202: thumb_finger
+    100204: thumb_finger 1
+    100206: tibia
+    100208: tibia 1
+    100210: torso
+    100212: transform1
+    400000: carpals
+    400002: carpals 1
+    400004: coat
+    400006: collar
+    400008: cranium
+    400010: eyebrow_left
+    400012: eyebrow_right
+    400014: eyebrows
+    400016: femur
+    400018: femur 1
+    400020: fibula
+    400022: fibula 1
+    400024: hand_left
+    400026: hand_right
+    400028: hands
+    400030: hat
+    400032: index_finger
+    400034: index_finger 1
+    400036: jaw
+    400038: left_boot
+    400040: leg_left
+    400042: leg_right
+    400044: legs
+    400046: meta_index
+    400048: meta_index 1
+    400050: meta_middle
+    400052: meta_middle 1
+    400054: meta_pinkie
+    400056: meta_pinkie 1
+    400058: meta_ring
+    400060: meta_ring 1
+    400062: meta_thumb
+    400064: meta_thumb 1
+    400066: middle_finger
+    400068: middle_finger 1
+    400070: moustache
+    400072: moustache_left
+    400074: moustache_right
+    400076: pelvis
+    400078: phalanges_index
+    400080: phalanges_index 1
+    400082: phalanges_mid_index
+    400084: phalanges_mid_index 1
+    400086: phalanges_mid_middle
+    400088: phalanges_mid_middle 1
+    400090: phalanges_mid_pinkie
+    400092: phalanges_mid_pinkie 1
+    400094: phalanges_mid_ring
+    400096: phalanges_mid_ring 1
+    400098: phalanges_mid_thumb
+    400100: phalanges_mid_thumb 1
+    400102: phalanges_middle
+    400104: phalanges_middle 1
+    400106: phalanges_pinkie
+    400108: phalanges_pinkie 1
+    400110: phalanges_ring
+    400112: phalanges_ring 1
+    400114: phalanges_thumb
+    400116: phalanges_thumb 1
+    400118: phalanges_tip_index
+    400120: phalanges_tip_index 1
+    400122: phalanges_tip_middle
+    400124: phalanges_tip_middle 1
+    400126: phalanges_tip_pinkie
+    400128: phalanges_tip_pinkie 1
+    400130: phalanges_tip_ring
+    400132: phalanges_tip_ring 1
+    400134: phalanges_tip_thumb
+    400136: phalanges_tip_thumb 1
+    400138: pinkie_finger
+    400140: pinkie_finger 1
+    400142: polySurface10
+    400144: polySurface11
+    400146: polySurface12
+    400148: polySurface13
+    400150: polySurface14
+    400152: polySurface15
+    400154: polySurface16
+    400156: polySurface17
+    400158: polySurface18
+    400160: polySurface19
+    400162: polySurface20
+    400164: polySurface21
+    400166: polySurface22
+    400168: polySurface23
+    400170: polySurface24
+    400172: polySurface25
+    400174: polySurface26
+    400176: polySurface27
+    400178: polySurface28
+    400180: polySurface8
+    400182: polySurface9
+    400184: ribs
+    400186: right_boot
+    400188: ring_finger
+    400190: ring_finger 1
+    400192: //RootNode
+    400194: skull
+    400196: spine
+    400198: spine_bottom
+    400200: spine_top
+    400202: thumb_finger
+    400204: thumb_finger 1
+    400206: tibia
+    400208: tibia 1
+    400210: torso
+    400212: transform1
+    2300000: carpals
+    2300002: carpals 1
+    2300004: collar
+    2300006: cranium
+    2300008: eyebrow_left
+    2300010: eyebrow_right
+    2300012: femur
+    2300014: femur 1
+    2300016: fibula
+    2300018: fibula 1
+    2300020: hat
+    2300022: jaw
+    2300024: left_boot
+    2300026: meta_index
+    2300028: meta_index 1
+    2300030: meta_middle
+    2300032: meta_middle 1
+    2300034: meta_pinkie
+    2300036: meta_pinkie 1
+    2300038: meta_ring
+    2300040: meta_ring 1
+    2300042: meta_thumb
+    2300044: meta_thumb 1
+    2300046: moustache_left
+    2300048: moustache_right
+    2300050: pelvis
+    2300052: phalanges_mid_index
+    2300054: phalanges_mid_index 1
+    2300056: phalanges_mid_middle
+    2300058: phalanges_mid_middle 1
+    2300060: phalanges_mid_pinkie
+    2300062: phalanges_mid_pinkie 1
+    2300064: phalanges_mid_ring
+    2300066: phalanges_mid_ring 1
+    2300068: phalanges_mid_thumb
+    2300070: phalanges_mid_thumb 1
+    2300072: phalanges_tip_index
+    2300074: phalanges_tip_index 1
+    2300076: phalanges_tip_middle
+    2300078: phalanges_tip_middle 1
+    2300080: phalanges_tip_pinkie
+    2300082: phalanges_tip_pinkie 1
+    2300084: phalanges_tip_ring
+    2300086: phalanges_tip_ring 1
+    2300088: phalanges_tip_thumb
+    2300090: phalanges_tip_thumb 1
+    2300092: polySurface10
+    2300094: polySurface11
+    2300096: polySurface12
+    2300098: polySurface13
+    2300100: polySurface14
+    2300102: polySurface15
+    2300104: polySurface16
+    2300106: polySurface17
+    2300108: polySurface18
+    2300110: polySurface19
+    2300112: polySurface20
+    2300114: polySurface21
+    2300116: polySurface22
+    2300118: polySurface23
+    2300120: polySurface24
+    2300122: polySurface25
+    2300124: polySurface26
+    2300126: polySurface27
+    2300128: polySurface28
+    2300130: polySurface8
+    2300132: polySurface9
+    2300134: ribs
+    2300136: right_boot
+    2300138: spine_bottom
+    2300140: spine_top
+    2300142: tibia
+    2300144: tibia 1
+    3300000: carpals
+    3300002: carpals 1
+    3300004: collar
+    3300006: cranium
+    3300008: eyebrow_left
+    3300010: eyebrow_right
+    3300012: femur
+    3300014: femur 1
+    3300016: fibula
+    3300018: fibula 1
+    3300020: hat
+    3300022: jaw
+    3300024: left_boot
+    3300026: meta_index
+    3300028: meta_index 1
+    3300030: meta_middle
+    3300032: meta_middle 1
+    3300034: meta_pinkie
+    3300036: meta_pinkie 1
+    3300038: meta_ring
+    3300040: meta_ring 1
+    3300042: meta_thumb
+    3300044: meta_thumb 1
+    3300046: moustache_left
+    3300048: moustache_right
+    3300050: pelvis
+    3300052: phalanges_mid_index
+    3300054: phalanges_mid_index 1
+    3300056: phalanges_mid_middle
+    3300058: phalanges_mid_middle 1
+    3300060: phalanges_mid_pinkie
+    3300062: phalanges_mid_pinkie 1
+    3300064: phalanges_mid_ring
+    3300066: phalanges_mid_ring 1
+    3300068: phalanges_mid_thumb
+    3300070: phalanges_mid_thumb 1
+    3300072: phalanges_tip_index
+    3300074: phalanges_tip_index 1
+    3300076: phalanges_tip_middle
+    3300078: phalanges_tip_middle 1
+    3300080: phalanges_tip_pinkie
+    3300082: phalanges_tip_pinkie 1
+    3300084: phalanges_tip_ring
+    3300086: phalanges_tip_ring 1
+    3300088: phalanges_tip_thumb
+    3300090: phalanges_tip_thumb 1
+    3300092: polySurface10
+    3300094: polySurface11
+    3300096: polySurface12
+    3300098: polySurface13
+    3300100: polySurface14
+    3300102: polySurface15
+    3300104: polySurface16
+    3300106: polySurface17
+    3300108: polySurface18
+    3300110: polySurface19
+    3300112: polySurface20
+    3300114: polySurface21
+    3300116: polySurface22
+    3300118: polySurface23
+    3300120: polySurface24
+    3300122: polySurface25
+    3300124: polySurface26
+    3300126: polySurface27
+    3300128: polySurface28
+    3300130: polySurface8
+    3300132: polySurface9
+    3300134: ribs
+    3300136: right_boot
+    3300138: spine_bottom
+    3300140: spine_top
+    3300142: tibia
+    3300144: tibia 1
+    4300000: cranium
+    4300002: jaw
+    4300004: hat
+    4300006: moustache_left
+    4300008: moustache_right
+    4300010: spine_bottom
+    4300012: polySurface8
+    4300014: polySurface9
+    4300016: polySurface10
+    4300018: polySurface11
+    4300020: polySurface12
+    4300022: polySurface13
+    4300024: polySurface14
+    4300026: polySurface15
+    4300028: polySurface16
+    4300030: polySurface17
+    4300032: polySurface18
+    4300034: polySurface19
+    4300036: polySurface20
+    4300038: polySurface21
+    4300040: polySurface22
+    4300042: polySurface23
+    4300044: polySurface24
+    4300046: polySurface25
+    4300048: spine_top
+    4300050: collar
+    4300052: ribs
+    4300054: pelvis
+    4300056: polySurface26
+    4300058: polySurface27
+    4300060: polySurface28
+    4300062: femur
+    4300064: tibia
+    4300066: fibula
+    4300068: left_boot
+    4300070: femur
+    4300072: tibia
+    4300074: fibula
+    4300076: right_boot
+    4300078: carpals
+    4300080: meta_thumb
+    4300082: phalanges_mid_thumb
+    4300084: phalanges_tip_thumb
+    4300086: meta_index
+    4300088: phalanges_tip_index
+    4300090: phalanges_mid_index
+    4300092: meta_middle
+    4300094: phalanges_mid_middle
+    4300096: phalanges_tip_middle
+    4300098: meta_ring
+    4300100: phalanges_mid_ring
+    4300102: phalanges_tip_ring
+    4300104: meta_pinkie
+    4300106: phalanges_mid_pinkie
+    4300108: phalanges_tip_pinkie
+    4300110: carpals
+    4300112: meta_thumb
+    4300114: phalanges_mid_thumb
+    4300116: phalanges_tip_thumb
+    4300118: meta_index
+    4300120: phalanges_tip_index
+    4300122: phalanges_mid_index
+    4300124: meta_middle
+    4300126: phalanges_mid_middle
+    4300128: phalanges_tip_middle
+    4300130: meta_ring
+    4300132: phalanges_mid_ring
+    4300134: phalanges_tip_ring
+    4300136: meta_pinkie
+    4300138: phalanges_mid_pinkie
+    4300140: phalanges_tip_pinkie
+    4300142: eyebrow_right
+    4300144: eyebrow_left
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: eyebrows
+        weight: 1
+      - path: eyebrows/eyebrow_left
+        weight: 1
+      - path: eyebrows/eyebrow_right
+        weight: 1
+      - path: hands
+        weight: 1
+      - path: hands/hand_left
+        weight: 1
+      - path: hands/hand_left/carpals
+        weight: 1
+      - path: hands/hand_left/index_finger
+        weight: 1
+      - path: hands/hand_left/index_finger/meta_index
+        weight: 1
+      - path: hands/hand_left/index_finger/phalanges_index
+        weight: 1
+      - path: hands/hand_left/index_finger/phalanges_index/phalanges_mid_index
+        weight: 1
+      - path: hands/hand_left/index_finger/phalanges_index/phalanges_tip_index
+        weight: 1
+      - path: hands/hand_left/middle_finger
+        weight: 1
+      - path: hands/hand_left/middle_finger/meta_middle
+        weight: 1
+      - path: hands/hand_left/middle_finger/phalanges_middle
+        weight: 1
+      - path: hands/hand_left/middle_finger/phalanges_middle/phalanges_mid_middle
+        weight: 1
+      - path: hands/hand_left/middle_finger/phalanges_middle/phalanges_tip_middle
+        weight: 1
+      - path: hands/hand_left/pinkie_finger
+        weight: 1
+      - path: hands/hand_left/pinkie_finger/meta_pinkie
+        weight: 1
+      - path: hands/hand_left/pinkie_finger/phalanges_pinkie
+        weight: 1
+      - path: hands/hand_left/pinkie_finger/phalanges_pinkie/phalanges_mid_pinkie
+        weight: 1
+      - path: hands/hand_left/pinkie_finger/phalanges_pinkie/phalanges_tip_pinkie
+        weight: 1
+      - path: hands/hand_left/ring_finger
+        weight: 1
+      - path: hands/hand_left/ring_finger/meta_ring
+        weight: 1
+      - path: hands/hand_left/ring_finger/phalanges_ring
+        weight: 1
+      - path: hands/hand_left/ring_finger/phalanges_ring/phalanges_mid_ring
+        weight: 1
+      - path: hands/hand_left/ring_finger/phalanges_ring/phalanges_tip_ring
+        weight: 1
+      - path: hands/hand_left/thumb_finger
+        weight: 1
+      - path: hands/hand_left/thumb_finger/meta_thumb
+        weight: 1
+      - path: hands/hand_left/thumb_finger/phalanges_thumb
+        weight: 1
+      - path: hands/hand_left/thumb_finger/phalanges_thumb/phalanges_mid_thumb
+        weight: 1
+      - path: hands/hand_left/thumb_finger/phalanges_thumb/phalanges_tip_thumb
+        weight: 1
+      - path: hands/hand_right
+        weight: 1
+      - path: hands/hand_right/carpals 1
+        weight: 1
+      - path: hands/hand_right/index_finger 1
+        weight: 1
+      - path: hands/hand_right/index_finger 1/meta_index 1
+        weight: 1
+      - path: hands/hand_right/index_finger 1/phalanges_index 1
+        weight: 1
+      - path: hands/hand_right/index_finger 1/phalanges_index 1/phalanges_mid_index
+          1
+        weight: 1
+      - path: hands/hand_right/index_finger 1/phalanges_index 1/phalanges_tip_index
+          1
+        weight: 1
+      - path: hands/hand_right/middle_finger 1
+        weight: 1
+      - path: hands/hand_right/middle_finger 1/meta_middle 1
+        weight: 1
+      - path: hands/hand_right/middle_finger 1/phalanges_middle 1
+        weight: 1
+      - path: hands/hand_right/middle_finger 1/phalanges_middle 1/phalanges_mid_middle
+          1
+        weight: 1
+      - path: hands/hand_right/middle_finger 1/phalanges_middle 1/phalanges_tip_middle
+          1
+        weight: 1
+      - path: hands/hand_right/pinkie_finger 1
+        weight: 1
+      - path: hands/hand_right/pinkie_finger 1/meta_pinkie 1
+        weight: 1
+      - path: hands/hand_right/pinkie_finger 1/phalanges_pinkie 1
+        weight: 1
+      - path: hands/hand_right/pinkie_finger 1/phalanges_pinkie 1/phalanges_mid_pinkie
+          1
+        weight: 1
+      - path: hands/hand_right/pinkie_finger 1/phalanges_pinkie 1/phalanges_tip_pinkie
+          1
+        weight: 1
+      - path: hands/hand_right/ring_finger 1
+        weight: 1
+      - path: hands/hand_right/ring_finger 1/meta_ring 1
+        weight: 1
+      - path: hands/hand_right/ring_finger 1/phalanges_ring 1
+        weight: 1
+      - path: hands/hand_right/ring_finger 1/phalanges_ring 1/phalanges_mid_ring 1
+        weight: 1
+      - path: hands/hand_right/ring_finger 1/phalanges_ring 1/phalanges_tip_ring 1
+        weight: 1
+      - path: hands/hand_right/thumb_finger 1
+        weight: 1
+      - path: hands/hand_right/thumb_finger 1/meta_thumb 1
+        weight: 1
+      - path: hands/hand_right/thumb_finger 1/phalanges_thumb 1
+        weight: 1
+      - path: hands/hand_right/thumb_finger 1/phalanges_thumb 1/phalanges_mid_thumb
+          1
+        weight: 1
+      - path: hands/hand_right/thumb_finger 1/phalanges_thumb 1/phalanges_tip_thumb
+          1
+        weight: 1
+      - path: legs
+        weight: 1
+      - path: legs/leg_left
+        weight: 1
+      - path: legs/leg_left/femur
+        weight: 1
+      - path: legs/leg_left/fibula
+        weight: 1
+      - path: legs/leg_left/left_boot
+        weight: 1
+      - path: legs/leg_left/tibia
+        weight: 1
+      - path: legs/leg_right
+        weight: 1
+      - path: legs/leg_right/femur 1
+        weight: 1
+      - path: legs/leg_right/fibula 1
+        weight: 1
+      - path: legs/leg_right/right_boot
+        weight: 1
+      - path: legs/leg_right/tibia 1
+        weight: 1
+      - path: skull
+        weight: 1
+      - path: skull/cranium
+        weight: 1
+      - path: skull/hat
+        weight: 1
+      - path: skull/jaw
+        weight: 1
+      - path: skull/moustache
+        weight: 1
+      - path: skull/moustache/moustache_left
+        weight: 1
+      - path: skull/moustache/moustache_right
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: torso/coat
+        weight: 1
+      - path: torso/coat/polySurface26
+        weight: 1
+      - path: torso/coat/polySurface27
+        weight: 1
+      - path: torso/coat/polySurface28
+        weight: 1
+      - path: torso/coat/transform1
+        weight: 1
+      - path: torso/collar
+        weight: 1
+      - path: torso/pelvis
+        weight: 1
+      - path: torso/ribs
+        weight: 1
+      - path: torso/spine
+        weight: 1
+      - path: torso/spine/polySurface8
+        weight: 1
+      - path: torso/spine/polySurface9
+        weight: 1
+      - path: torso/spine/polySurface10
+        weight: 1
+      - path: torso/spine/polySurface11
+        weight: 1
+      - path: torso/spine/polySurface12
+        weight: 1
+      - path: torso/spine/polySurface13
+        weight: 1
+      - path: torso/spine/polySurface14
+        weight: 1
+      - path: torso/spine/polySurface15
+        weight: 1
+      - path: torso/spine/polySurface16
+        weight: 1
+      - path: torso/spine/polySurface17
+        weight: 1
+      - path: torso/spine/polySurface18
+        weight: 1
+      - path: torso/spine/polySurface19
+        weight: 1
+      - path: torso/spine/polySurface20
+        weight: 1
+      - path: torso/spine/polySurface21
+        weight: 1
+      - path: torso/spine/polySurface22
+        weight: 1
+      - path: torso/spine/polySurface23
+        weight: 1
+      - path: torso/spine/polySurface24
+        weight: 1
+      - path: torso/spine/polySurface25
+        weight: 1
+      - path: torso/spine/spine_bottom
+        weight: 1
+      - path: torso/spine/spine_top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
